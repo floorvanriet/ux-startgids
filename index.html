@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX Startgids — Floor van Riet</title>
+  <meta name="description" content="Tools, boeken en resources voor iedereen die aan de slag wil met UX. Samengesteld voor de Frankwatching UX-training.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+<header class="top-bar">
+  <a href="https://floorvanriet.nl" class="top-bar-name" target="_blank" rel="noopener">Floor van Riet</a>
+  <a href="https://floorvanriet.nl" class="top-bar-link" target="_blank" rel="noopener">floorvanriet.nl</a>
+</header>
+
+<div class="page-wrapper">
+
+  <!-- Sidebar nav (desktop) -->
+  <nav class="sidebar-nav" aria-label="Secties">
+    <ul>
+      <li><a href="#design-tools">Design tools</a></li>
+      <li><a href="#ai-prototyping">AI-prototyping</a></li>
+      <li><a href="#workshop-tools">Workshop tools</a></li>
+      <li><a href="#testing-feedback">Testing & feedback</a></li>
+      <li><a href="#toegankelijkheid">Toegankelijkheid</a></li>
+      <li><a href="#ux-writing">UX writing</a></li>
+      <li><a href="#websites-inspiratie">Websites & inspiratie</a></li>
+      <li><a href="#design-resources">Design resources</a></li>
+      <li><a href="#boeken">Boeken</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <header class="hero">
+      <h1>UX Startgids</h1>
+      <p class="subtitle">Tools, boeken en resources voor iedereen die aan de slag wil met UX</p>
+      <p>Goede digitale producten ontstaan niet per toeval. Ze zijn het resultaat van inzicht in je gebruikers, slimme keuzes in het ontwerp en een werkproces dat ruimte maakt voor testen en verbeteren. In deze gids vind je de tools, boeken en websites die ik zelf gebruik en aanraad — samengesteld voor de Frankwatching UX-training, maar bruikbaar voor iedereen die serieus aan de slag wil met gebruikerservaring.</p>
+      <p>De gids is ingedeeld op thema: van ontwerptools en AI-prototyping tot toegankelijkheid, UX writing en testmethoden.</p>
+    </header>
+
+    <!-- Mobile nav (only visible < 900px, after intro) -->
+    <nav class="mobile-pills" aria-label="Spring naar sectie">
+      <a href="#design-tools" class="pill-link">Design tools</a>
+      <a href="#ai-prototyping" class="pill-link">AI-prototyping</a>
+      <a href="#workshop-tools" class="pill-link">Workshop tools</a>
+      <a href="#testing-feedback" class="pill-link">Testing & feedback</a>
+      <a href="#toegankelijkheid" class="pill-link">Toegankelijkheid</a>
+      <a href="#ux-writing" class="pill-link">UX writing</a>
+      <a href="#websites-inspiratie" class="pill-link">Websites & inspiratie</a>
+      <a href="#design-resources" class="pill-link">Design resources</a>
+      <a href="#boeken" class="pill-link">Boeken</a>
+    </nav>
+
+    <!-- Design tools -->
+    <section id="design-tools">
+      <h2>Design tools</h2>
+      <div class="section-intro">
+        De tools waarmee je wireframes, visuele ontwerpen en interactieve prototypes maakt. Van snelle schetsen tot pixel-perfect design en developer handoff.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=figma.com&sz=128" alt="Figma" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.figma.com/" target="_blank" rel="noopener">Figma</a></span>
+              <span class="tool-tag">wireframing + visual design + handoff</span>
+            </div>
+            <p class="tool-desc">De standaard voor UX/UI-design. Samenwerken aan wireframes, hi-fi en prototypes in een tool. Dev Mode voor handoff, Figma Slides voor presentaties.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=balsamiq.com&sz=128" alt="Balsamiq" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://balsamiq.com/" target="_blank" rel="noopener">Balsamiq</a></span>
+              <span class="tool-tag">wireframing</span>
+            </div>
+            <p class="tool-desc">Snel en low-fi schetsen zonder afleiding van kleuren en fonts. Ideaal in de vroege ontwerpfase.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=sketch.com&sz=128" alt="Sketch" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.sketch.com/" target="_blank" rel="noopener">Sketch</a></span>
+              <span class="tool-tag">visual design + prototyping</span>
+            </div>
+            <p class="tool-desc">Populaire Mac-only designtool met een trouwe community. Sterk in symbolen, libraries en een strakke workflow voor UI-design.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxpin.com&sz=128" alt="UXPin" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.uxpin.com/" target="_blank" rel="noopener">UXPin</a></span>
+              <span class="tool-tag">design + code-based prototyping</span>
+            </div>
+            <p class="tool-desc">Design met echte React-componenten en variabelen. Ideaal als je prototypes wilt die direct aansluiten op de codebase.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=protopie.io&sz=128" alt="ProtoPie" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.protopie.io/" target="_blank" rel="noopener">ProtoPie</a></span>
+              <span class="tool-tag">advanced mobile prototyping</span>
+            </div>
+            <p class="tool-desc">Bouw hyperrealistische mobiele prototypes met sensoren, variabelen en multi-device interacties.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=framer.com&sz=128" alt="Framer" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.framer.com/" target="_blank" rel="noopener">Framer</a></span>
+              <span class="tool-tag">design + code prototyping</span>
+            </div>
+            <p class="tool-desc">Zit tussen Figma en code in. Ideaal als je interactieve, publiceerbare prototypes wil zonder developer.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AI-prototyping tools -->
+    <section id="ai-prototyping">
+      <h2>AI-prototyping tools</h2>
+      <div class="section-intro">
+        Tools waarmee je op basis van een prompt, schetsen en screenshots direct UI-designs genereert. Sommige tools generen daarbij bewerkbare designs, andere maken direct HTML/code. Ideaal voor een kick-start van concepten en inspiratie.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" alt="Claude Code" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a></span>
+              <span class="tool-tag">AI code + prototype generator</span>
+            </div>
+            <p class="tool-desc">Genereer werkende HTML/CSS/React-prototypes via een promptgesprek. Sterk in toegankelijkheid, componentstructuur en itereren op feedback. Gebruik het als een senior dev die jouw schets omzet naar code.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=stitch.withgoogle.com&sz=128" alt="Google Stitch" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://stitch.withgoogle.com/" target="_blank" rel="noopener">Google Stitch</a></span>
+              <span class="tool-tag">AI UI design generator</span>
+            </div>
+            <p class="tool-desc">Google's tool voor het genereren van UI-schermen op basis van een tekstbeschrijving. Output is een Figma-compatibel design. Goed startpunt voor vroege fase.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxpilot.ai&sz=128" alt="UX Pilot" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://uxpilot.ai/" target="_blank" rel="noopener">UX Pilot</a></span>
+              <span class="tool-tag">AI wireframe + UI generator</span>
+            </div>
+            <p class="tool-desc">Genereer wireframes en UI-designs rechtstreeks vanuit een prompt. Werkt goed als snelle designverkenning voor je Figma opent.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=figma.com&sz=128" alt="Figma Make" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.figma.com/make/" target="_blank" rel="noopener">Figma Make</a></span>
+              <span class="tool-tag">AI prototype in Figma</span>
+            </div>
+            <p class="tool-desc">Figma's eigen AI-laag: genereer werkende UI-componenten en prototypes direct in je Figma-omgeving. Integreert naadloos met je bestaande designsysteem.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=v0.dev&sz=128" alt="v0 by Vercel" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://v0.dev/" target="_blank" rel="noopener">v0 by Vercel</a></span>
+              <span class="tool-tag">AI component generator</span>
+            </div>
+            <p class="tool-desc">Genereer React/Tailwind-componenten op basis van een beschrijving of screenshot. Ideaal voor developers en design-dev samenwerking.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=bolt.new&sz=128" alt="Bolt.new" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://bolt.new/" target="_blank" rel="noopener">Bolt.new</a></span>
+              <span class="tool-tag">AI full-stack prototyping</span>
+            </div>
+            <p class="tool-desc">Bouw in minuten een werkende web-app op basis van een prompt. Handig als je een klikbaar, deploybaar prototype wil zonder developer.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=lovable.dev&sz=128" alt="Lovable" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://lovable.dev/" target="_blank" rel="noopener">Lovable</a></span>
+              <span class="tool-tag">AI full-stack app builder</span>
+            </div>
+            <p class="tool-desc">Vergelijkbaar met Bolt, maar met sterkere nadruk op publiceerbare web-apps. Goed voor non-developers die een functionerend product willen bouwen op basis van een prompt.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Workshop tools -->
+    <section id="workshop-tools">
+      <h2>Workshop tools</h2>
+      <div class="section-intro">
+        Goed gefaciliteerde workshops leveren betere inzichten en meer draagvlak op. Deze tools — digitaal en fysiek — helpen je om sessies gestructureerd en productief te houden.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=miro.com&sz=128" alt="Miro" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://miro.com/" target="_blank" rel="noopener">Miro</a></span>
+              <span class="tool-tag">digitaal whiteboard</span>
+            </div>
+            <p class="tool-desc">De standaard voor online workshops en design sprints. Sticky notes, voting, templates — werkt goed met remote teams.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=figma.com&sz=128" alt="FigJam" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.figma.com/figjam/" target="_blank" rel="noopener">FigJam</a></span>
+              <span class="tool-tag">digitaal whiteboard (in Figma)</span>
+            </div>
+            <p class="tool-desc">Figma's eigen whiteboard-tool. Ideaal als je toch al in Figma werkt. Minder features dan Miro, maar naadloze integratie.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=post-it.com&sz=128" alt="Post-its" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name">Post-its (groot formaat)</span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Gebruik echte Post-its — goedkopere alternatieven plakken slechter. <a href="https://www.youtube.com/watch?v=jkWV-MAxsLE" target="_blank" rel="noopener">Zo haal je een Post-it correct eraf.</a></p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=dotmocracy.org&sz=128" alt="Dot votes" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name">Dot votes (meerdere kleuren)</span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Laat deelnemers stemmen op ideeen in plaats van discussieren. Creeer schaarste: geef iedereen max. 5 stickers.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=timetimer.com&sz=128" alt="Time Timer" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.timetimer.com/" target="_blank" rel="noopener">Time Timer</a></span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Visuele timer voor workshops. Iedereen ziet hoeveel tijd er nog is — houdt het tempo erin.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=sharpie.com&sz=128" alt="Sharpies" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.sharpie.com/" target="_blank" rel="noopener">Sharpies</a></span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Dikke stift = gedwongen duidelijk schrijven. Geen gekriebel met een balpen op je Post-its.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=post-it.com&sz=128" alt="Post-it flip-over vellen" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name">Post-it flip-over vellen</span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Mega-Post-its voor als je geen flipover hebt. Overal op te plakken, geen sporen. Werkt super fijn, maar is wel aan de prijs. Verf tape en vellen papier is een goed alternatief.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=sketchize.com&sz=128" alt="Sketchize" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://sketchize.com/" target="_blank" rel="noopener">Sketchize — Paper sketching</a></span>
+              <span class="tool-tag">fysiek</span>
+            </div>
+            <p class="tool-desc">Printbare schetsbladen voor mobiel, tablet en desktop. Schets eerst op papier voor je Figma opent.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=medium.com&sz=128" alt="Core Model Template" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://medium.com/hike-one-digital-product-design/a-core-model-in-5-steps-b1661a5b423a" target="_blank" rel="noopener">Core Model Template</a></span>
+              <span class="tool-tag">methode</span>
+            </div>
+            <p class="tool-desc">Mapping-methode om de belangrijkste pagina's en hun content te identificeren. Goed voor samenwerking met niet-UX-stakeholders. <a href="https://alistapart.com/article/the-core-model-designing-inside-out-for-better-results/" target="_blank" rel="noopener">Meer over de methode.</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testing & feedback tools -->
+    <section id="testing-feedback">
+      <h2>Testing & feedback tools</h2>
+      <div class="section-intro">
+        Testen is geen luxe maar een noodzaak. Met deze tools kun je gedrag observeren, navigatie valideren en feedback verzamelen — van snelle heatmaps tot diepgaande usability tests.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=hotjar.com&sz=128" alt="Hotjar" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.hotjar.com/" target="_blank" rel="noopener">Hotjar</a></span>
+              <span class="tool-tag">heatmaps + sessie-opnames</span>
+            </div>
+            <p class="tool-desc">Zie waar gebruikers klikken, hoe ver ze scrollen en wat ze doen op je site. Sessie-opnames geven je een kijkje over de schouder van je bezoekers.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=lyssna.com&sz=128" alt="Lyssna" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.lyssna.com/" target="_blank" rel="noopener">Lyssna</a></span>
+              <span class="tool-tag">UX research platform</span>
+            </div>
+            <p class="tool-desc">Breed UX-research platform: 5-second tests, preference tests, usability testing en surveys. Inclusief Nederlands panel.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=lookback.io&sz=128" alt="Lookback.io" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://lookback.io/" target="_blank" rel="noopener">Lookback.io</a></span>
+              <span class="tool-tag">remote usability testing</span>
+            </div>
+            <p class="tool-desc">Modereerd en ongemodeeerd testen op afstand. Neemt scherm + reacties op en laat je markeren tijdens de sessie.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=optimalworkshop.com&sz=128" alt="OptimalSort" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.optimalworkshop.com/optimalsort" target="_blank" rel="noopener">OptimalSort</a></span>
+              <span class="tool-tag">card sorting</span>
+            </div>
+            <p class="tool-desc">Laat gebruikers content categoriseren. Geeft inzicht in hun mentale model van jouw informatiestructuur.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=optimalworkshop.com&sz=128" alt="Treejack" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.optimalworkshop.com/treejack" target="_blank" rel="noopener">Treejack</a></span>
+              <span class="tool-tag">sitemap/navigatie testing</span>
+            </div>
+            <p class="tool-desc">Test of gebruikers de juiste paden vinden in jouw navigatiestructuur — zonder visuele afleiding van het design.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=maze.co&sz=128" alt="Maze" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://maze.co/" target="_blank" rel="noopener">Maze</a></span>
+              <span class="tool-tag">rapid usability testing</span>
+            </div>
+            <p class="tool-desc">Koppel je Figma-prototype en stuur een geautomatiseerde test uit. Snel kwantitatieve data over taken, klikpaden en misclicks.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=dovetailapp.com&sz=128" alt="Dovetail" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://dovetailapp.com/" target="_blank" rel="noopener">Dovetail</a></span>
+              <span class="tool-tag">research repository</span>
+            </div>
+            <p class="tool-desc">Sla al je onderzoek op een plek op: interviews, notities, inzichten en patronen. Maakt van losse notities bruikbare, doorzoekbare kennis.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Toegankelijkheid -->
+    <section id="toegankelijkheid">
+      <h2>Toegankelijkheid</h2>
+      <div class="section-intro">
+        Toegankelijkheid is geen feature die je aan het einde toevoegt — het is een basiseis. Voor overheid en publieke organisaties geldt de WCAG 2.1-richtlijn als wettelijke verplichting. Vanaf juni 2025 verplicht de European Accessibility Act (EAA) ook commerciële sectoren zoals e-commerce, uitgevers en financiële dienstverleners om digitale producten en diensten toegankelijk te maken.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=wave.webaim.org&sz=128" alt="WAVE" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://wave.webaim.org/" target="_blank" rel="noopener">WAVE</a></span>
+              <span class="tool-tag">accessibility checker</span>
+            </div>
+            <p class="tool-desc">Browser-extensie die toegankelijkheidsproblemen direct op de pagina visualiseert. Goed startpunt voor een snelle scan.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=tpgi.com&sz=128" alt="Colour Contrast Analyser" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.tpgi.com/color-contrast-checker/" target="_blank" rel="noopener">Colour Contrast Analyser</a></span>
+              <span class="tool-tag">contrastcheck</span>
+            </div>
+            <p class="tool-desc">Desktop-tool van TPGi om kleurcontrast te controleren tegen WCAG AA/AAA. Onmisbaar bij het beoordelen van designs.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=digitoegankelijk.nl&sz=128" alt="DigiToegankelijk" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.digitoegankelijk.nl/" target="_blank" rel="noopener">DigiToegankelijk</a></span>
+              <span class="tool-tag">Nederlandse richtlijnen + verklaringen</span>
+            </div>
+            <p class="tool-desc">De Nederlandse bron voor digitale toegankelijkheid. Uitleg van de richtlijnen, voorbeelden en het genereren van een toegankelijkheidsverklaring.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=appt.org&sz=128" alt="Appt.org" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://appt.org/nl" target="_blank" rel="noopener">Appt.org</a></span>
+              <span class="tool-tag">toegankelijkheid voor apps (NL)</span>
+            </div>
+            <p class="tool-desc">Nederlandstalig kennisplatform specifiek gericht op toegankelijke app-ontwikkeling. Praktische codevoorbeelden per platform.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=deque.com&sz=128" alt="axe DevTools" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.deque.com/axe/devtools/" target="_blank" rel="noopener">axe DevTools</a></span>
+              <span class="tool-tag">automated accessibility testing</span>
+            </div>
+            <p class="tool-desc">Browser-extensie voor diepgaandere toegankelijkheidsscans. Integreert ook in design- en ontwikkelworkflows.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=accessibility.nl&sz=128" alt="Stichting Accessibility" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.accessibility.nl/" target="_blank" rel="noopener">Stichting Accessibility</a></span>
+              <span class="tool-tag">kennisplatform (NL)</span>
+            </div>
+            <p class="tool-desc">Nederlandse organisatie met uitgebreide kennisbank, trainingen en onderzoeken over digitale toegankelijkheid.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=leessimpel.nl&sz=128" alt="Lees Simpel" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.leessimpel.nl/" target="_blank" rel="noopener">Lees Simpel</a></span>
+              <span class="tool-tag">begrijpelijke taal (NL)</span>
+            </div>
+            <p class="tool-desc">App die teksten controleert op taalniveau en leesbaarheid. Handig om te checken of je content begrijpelijk is voor een breed publiek, inclusief laaggeletterden.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- UX writing & content design -->
+    <section id="ux-writing">
+      <h2>UX writing & content design</h2>
+      <div class="section-intro">
+        Tekst is interface. Hoe je iets formuleert bepaalt of een gebruiker begrijpt wat er van hem verwacht wordt — en of hij vertrouwen heeft in je product of organisatie.
+      </div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=hemingwayapp.com&sz=128" alt="Hemingway App" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://hemingwayapp.com/" target="_blank" rel="noopener">Hemingway App</a></span>
+              <span class="tool-tag">leesbaarheidscheck</span>
+            </div>
+            <p class="tool-desc">Laat zien waar je zinnen te lang of te ingewikkeld zijn. Geeft een leesniveau (grade level). Werkt ook met Nederlandse tekst.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=leesbaarheidsscore.nl&sz=128" alt="Leesbaarheidsscore.nl" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.leesbaarheidsscore.nl/" target="_blank" rel="noopener">Leesbaarheidsscore.nl</a></span>
+              <span class="tool-tag">Nederlandse leesbaarheidscheck</span>
+            </div>
+            <p class="tool-desc">Nederlandse tool die de leesbaarheid van tekst berekent op basis van de Flesch-Douma formule (Nederlands equivalent van Flesch-Kincaid).</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=taaladvies.net&sz=128" alt="Taaladvies.net" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.taaladvies.net/" target="_blank" rel="noopener">Taaladvies.net</a></span>
+              <span class="tool-tag">Nederlands taaladvies</span>
+            </div>
+            <p class="tool-desc">Officieel taaladviesportaal van de Nederlandse Taalunie. Handig voor twijfels over spelling, stijl en formulering.</p>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=rijksoverheid.nl&sz=128" alt="Schrijfwijzer Rijksoverheid" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.rijksoverheid.nl/documenten/publicaties/2015/03/01/schrijfwijzer-rijksoverheid" target="_blank" rel="noopener">Schrijfwijzer Rijksoverheid</a></span>
+              <span class="tool-tag">schrijfstijlgids (NL)</span>
+            </div>
+            <p class="tool-desc">De schrijfstandaard voor duidelijke overheidscommunicatie. Ook buiten de overheid bruikbaar als stijlreferentie voor heldere, toegankelijke tekst.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Websites & inspiratie -->
+    <section id="websites-inspiratie">
+      <h2>Websites & inspiratie</h2>
+      <div class="section-intro">
+        Blijf leren en op de hoogte van UX-trends. Deze websites bieden artikelen, onderzoek en inzichten van vooraanstaande UX-professionals.
+      </div>
+      <div class="tool-grid">
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=nngroup.com&sz=128" alt="NNGroup" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.nngroup.com/" target="_blank" rel="noopener">Nielsen Norman Group</a></span>
+            </div>
+            <p class="tool-desc">Enorme collectie evidence-based onderzoek, artikelen en rapporten. De autoriteit op het gebied van UX.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxdesign.cc&sz=128" alt="UX Collective" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://uxdesign.cc/" target="_blank" rel="noopener">UX Collective</a></span>
+            </div>
+            <p class="tool-desc">Sterk UX-blogplatform op Medium. Breed aanbod van praktische artikelen tot opinie.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxplanet.org&sz=128" alt="UX Planet" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://uxplanet.org/" target="_blank" rel="noopener">UX Planet</a></span>
+            </div>
+            <p class="tool-desc">One-stop resource voor alles over UX.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxmyths.com&sz=128" alt="UX Myths" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://uxmyths.com/" target="_blank" rel="noopener">UX Myths</a></span>
+            </div>
+            <p class="tool-desc">Verzameling van veelgehoorde UX-misvattingen — inclusief de uitleg waarom ze niet kloppen.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=lawsofux.com&sz=128" alt="Laws of UX" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://lawsofux.com/" target="_blank" rel="noopener">Laws of UX</a></span>
+            </div>
+            <p class="tool-desc">Overzicht van psychologische en designprincipes die ten grondslag liggen aan goede UX. Mooi vormgegeven, direct toepasbaar.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=uxmag.com&sz=128" alt="UX Magazine" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://uxmag.com/" target="_blank" rel="noopener">UX Magazine</a></span>
+            </div>
+            <p class="tool-desc">Internationaal blogplatform over UX.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Design resources -->
+    <section id="design-resources">
+      <h2>Design resources</h2>
+      <div class="section-intro">
+        Kijk hoe anderen het doen. Deze sites verzamelen UI-patronen, flows en schermontwerpen van bestaande apps en websites — ideaal als referentie of inspiratie voor je eigen ontwerp.
+      </div>
+      <div class="tool-grid">
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=mobbin.com&sz=128" alt="Mobbin" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://mobbin.com/" target="_blank" rel="noopener">Mobbin</a></span>
+              <span class="tool-tag">UI screenshots + flows</span>
+            </div>
+            <p class="tool-desc">Bibliotheek van screenshots en flows van populaire apps. Ideaal als je wil zien hoe anderen een bepaald patroon hebben opgelost.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=pageflows.com&sz=128" alt="Page Flows" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://pageflows.com/" target="_blank" rel="noopener">Page Flows</a></span>
+              <span class="tool-tag">user flow recordings</span>
+            </div>
+            <p class="tool-desc">Video-opnames van complete user flows in bekende apps. Zie precies hoe onboarding, checkout of settings werken bij grote producten.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=ui-patterns.com&sz=128" alt="UI Patterns" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://ui-patterns.com/" target="_blank" rel="noopener">UI Patterns</a></span>
+              <span class="tool-tag">design pattern library</span>
+            </div>
+            <p class="tool-desc">Verzameling van bewezen UI-patronen met uitleg wanneer en waarom je ze gebruikt. Handig als referentie bij ontwerpbeslissingen.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="tool-icon" src="https://www.google.com/s2/favicons?domain=screenlane.com&sz=128" alt="Screenlane" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://screenlane.com/" target="_blank" rel="noopener">Screenlane</a></span>
+              <span class="tool-tag">UI design inspiration</span>
+            </div>
+            <p class="tool-desc">Dagelijks bijgewerkte collectie van UI-screenshots, gefilterd op categorie en schermtype. Goed voor snelle visuele referentie.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Boeken -->
+    <section id="boeken">
+      <h2>Boeken</h2>
+      <div class="section-intro">
+        Een goed UX-boek geeft je frameworks en denkwijzen die langer meegaan dan welke tool dan ook. Deze titels zijn stuk voor stuk bewezen klassieker of praktische must-reads.
+      </div>
+      <div class="book-list">
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9780465050659-M.jpg" alt="The Design of Everyday Things" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.bol.com/nl/nl/f/the-design-of-everyday-things/30165325/" target="_blank" rel="noopener">The Design of Everyday Things</a></span>
+              <span class="tool-tag">Don Norman</span>
+            </div>
+            <p class="tool-desc">Standaardliteratuur. Legt uit waarom sommige dingen onhandig aanvoelen en andere intuitief.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9780321965516-M.jpg" alt="Don't Make Me Think" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.bol.com/nl/nl/f/don-t-make-me/30073530/" target="_blank" rel="noopener">Don't Make Me Think</a></span>
+              <span class="tool-tag">Steve Krug</span>
+            </div>
+            <p class="tool-desc">Klassieker over webusability. Leest in een middag uit en verandert hoe je naar interfaces kijkt.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9781118766576-M.jpg" alt="About Face" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.bol.com/nl/p/about-face/1001004000811564/" target="_blank" rel="noopener">About Face</a></span>
+              <span class="tool-tag">Alan Cooper</span>
+            </div>
+            <p class="tool-desc">Uitgebreide gids voor interaction design. Dik boek, maar een blijvende referentie.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1492037065i/34847317.jpg" alt="Microcopy" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.microcopybook.com/" target="_blank" rel="noopener">Microcopy</a></span>
+              <span class="tool-tag">Kinneret Yifrah</span>
+            </div>
+            <p class="tool-desc">Handzaam boek over UX-copywriting. Hoe je met slimme tekst conversies verhoogt en gebruikers helpt.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9780136746911-M.jpg" alt="100 Things Every Designer Needs to Know About People" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.bol.com/nl/p/100-things-every-designer-needs-to-know-about-people/1001004011360744/" target="_blank" rel="noopener">100 Things Every Designer Needs to Know About People</a></span>
+              <span class="tool-tag">Susan Weinschenk</span>
+            </div>
+            <p class="tool-desc">Wetenschappelijk onderbouwde inzichten over menselijk gedrag, vertaald naar ontwerp.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9781501121746-M.jpg" alt="Sprint" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.thesprintbook.com/" target="_blank" rel="noopener">Sprint</a></span>
+              <span class="tool-tag">Jake Knapp</span>
+            </div>
+            <p class="tool-desc">Het handboek voor Design Sprints. Stap voor stap door vijf dagen naar een gevalideerd concept.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9781449311650-M.jpg" alt="Lean UX" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652" target="_blank" rel="noopener">Lean UX</a></span>
+              <span class="tool-tag">Jeff Gothelf</span>
+            </div>
+            <p class="tool-desc">Hoe je UX integreert in een Agile/Lean omgeving. Focust op samenwerking en het testen van aannames.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1593430292i/53413794.jpg" alt="Workshopper Playbook" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.workshopperplaybook.com/" target="_blank" rel="noopener">Workshopper Playbook</a></span>
+              <span class="tool-tag">Jonathan Courtney</span>
+            </div>
+            <p class="tool-desc">Gratis boekje voor het ontwerpen en faciliteren van workshops. Praktisch en direct toepasbaar.</p>
+          </div>
+        </div>
+
+        <div class="simple-card">
+          <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/9781558607101-M.jpg" alt="Forms that Work" loading="lazy">
+          <div class="tool-content">
+            <div class="tool-header">
+              <span class="tool-name"><a href="https://www.amazon.com/Forms-that-Work-Interactive-Technologies/dp/1558607102" target="_blank" rel="noopener">Forms that Work</a></span>
+              <span class="tool-tag">Caroline Jarrett</span>
+            </div>
+            <p class="tool-desc">Specifiek maar onderschat: hoe ontwerp je formulieren die mensen echt invullen?</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+</div>
+
+<footer>
+  <p>Samengesteld door <a href="https://floorvanriet.nl" target="_blank" rel="noopener">Floor van Riet</a></p>
+</footer>
+
+<script>
+  // Active sidebar link on scroll
+  const sections = document.querySelectorAll('main section[id]');
+  const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+  function updateActiveLink() {
+    let current = '';
+    sections.forEach(function (section) {
+      const top = section.offsetTop - 100;
+      if (window.scrollY >= top) {
+        current = section.getAttribute('id');
+      }
+    });
+    navLinks.forEach(function (link) {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+    });
+  }
+
+  window.addEventListener('scroll', updateActiveLink, { passive: true });
+  updateActiveLink();
+</script>
+
+</body>
+</html>

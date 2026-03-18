@@ -300,6 +300,31 @@ section {
   font-weight: 400;
 }
 
+.price-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.price-tag--gratis {
+  background: #D4EDDA;
+  color: #1B5E20;
+}
+
+.price-tag--freemium {
+  background: #FFF3CD;
+  color: #7A5D00;
+}
+
+.price-tag--betaald {
+  background: #F0E0D0;
+  color: #6D4C2A;
+}
+
 .tool-desc {
   font-size: 0.9rem;
   color: #444;
@@ -350,9 +375,39 @@ section {
 
 /* ===== Books section ===== */
 .book-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 0.75rem;
+}
+
+.book-list .simple-card {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.25rem 1rem;
+}
+
+.book-list .book-cover {
+  width: 100px;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.book-list .tool-header {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.book-list .tool-name {
+  font-size: 0.9rem;
+}
+
+.book-list .tool-desc {
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 
 /* ===== Footer ===== */
@@ -420,6 +475,10 @@ footer a {
 
   .tool-tag { color: #777; }
 
+  .price-tag--gratis { background: #1B3A24; color: #81C784; }
+  .price-tag--freemium { background: #3A3019; color: #D4A94A; }
+  .price-tag--betaald { background: #3A2A1A; color: #C9A67A; }
+
   .sidebar-nav a { color: #999; }
   .sidebar-nav a:hover,
   .sidebar-nav a.active { background: #252422; color: #E8E6E1; }
@@ -471,6 +530,16 @@ footer a {
 
   .tool-grid {
     grid-template-columns: 1fr;
+  }
+
+  .book-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .book-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

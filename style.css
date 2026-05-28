@@ -112,9 +112,17 @@ main {
 
 /* ===== Hero ===== */
 .hero {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #D6D3CC;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
 }
 
 .hero p {
@@ -129,6 +137,42 @@ main {
   color: #888;
   font-weight: 400;
   margin-bottom: 0.3rem;
+}
+
+/* ===== Hero promo card ===== */
+.hero-promo {
+  width: 280px;
+  flex-shrink: 0;
+  background: #E9E6DF;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.hero-promo h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-promo p {
+  font-size: 0.88rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  max-width: none;
+}
+
+.promo-meta {
+  font-size: 0.8rem !important;
+  color: #888 !important;
+  font-weight: 500;
+}
+
+.hero-promo .btn-outline {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
 }
 
 /* ===== Sidebar nav (desktop) ===== */
@@ -461,6 +505,9 @@ footer a {
 
   .hero .subtitle { color: #888; }
   .hero { border-bottom-color: #333; }
+  .hero-promo { background: #252422; }
+  .hero-promo p { color: #B0ADA6; }
+  .promo-meta { color: #777 !important; }
 
   .tool-card,
   .simple-card,
@@ -507,9 +554,14 @@ footer a {
   }
 
   .hero {
+    flex-direction: column;
     border-bottom: none;
     margin-bottom: 1.25rem;
     padding-bottom: 0;
+  }
+
+  .hero-promo {
+    width: 100%;
   }
 
   .mobile-pills {

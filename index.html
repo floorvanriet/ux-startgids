@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
@@ -944,6 +944,12 @@
     navLinks.forEach(function (link) {
       link.classList.toggle('active', link.getAttribute('href') === '#' + current);
     });
+    // Section-based background tint (see style.css)
+    if (current) {
+      document.body.dataset.section = current;
+    } else {
+      delete document.body.dataset.section;
+    }
   }
 
   window.addEventListener('scroll', updateActiveLink, { passive: true });

@@ -213,11 +213,11 @@ main {
 /* ===== Sidebar nav (desktop) ===== */
 .sidebar-nav {
   position: sticky;
-  top: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
   align-self: flex-start;
   width: 200px;
   flex-shrink: 0;
-  padding-top: 6rem;
 }
 
 .sidebar-nav ul {
@@ -272,6 +272,7 @@ main {
 /* ===== Sections ===== */
 section {
   margin-bottom: 3.5rem;
+  scroll-margin-top: 40px;
 }
 
 .section-intro {
